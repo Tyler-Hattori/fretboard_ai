@@ -22,3 +22,12 @@ My ideas for the 3 windowed encoders are shown in windows.png.
 
 There are obviously a lot of ways I can improve this model. I think that I should try training the model without using all the different chord voicings just to see if I can get some meaningful results. Right now, with the voicings, I suspect that my datset and the number of trainable parameters in my model are too small. Once I get the key classification to work I would like to pursue the windowed encoder method to see if I improve my performance. I think the windowed implementation would improve the performance of the model when I increased the masking of the input, as the model would understand the relationships between bass, mid-range, and melodic components across individual strings. I have many many ideas for how this can be turned into a product! One idea would be to implement a decoder to convert a chord progression from one key to another, similar to the way a transformer can convert a sequence of words from one language to another. First I need to get it to work on a simple classification task though (haha). I am sure one day this will work! If I can create and classify music by only understanding the patterns of a fretboard, why can't a computer?
 
+## References
+
+Link to 'fretboard_key_of_c.png' screenshot source: https://upload.wikimedia.org/wikipedia/commons/1/1b/C_Major_Scale_on_fretboard.svg
+Link to 'guitar_tab_example.png' screenshot source: https://s3.amazonaws.com/halleonard-pagepreviews/HL_DDS_0000000000093646.png
+I took inspiration from the following papers:
+- Dosovitski et al. An Image is Worth 16x16 Words: Transformers Image Recognition at Scale. (2021).
+- Liu et al. Swin Transformer: Hierarchical Vision Transformer using Shifted Windows. (2021).
+- Vaswani et al. Attention Is All You Need. (2017).
+- Huang et al. Shuffle Transformer: Rethinking Spatial Shuffle for Vision Transformer. (2021).
