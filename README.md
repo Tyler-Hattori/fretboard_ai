@@ -26,6 +26,7 @@ There are obviously a lot of ways I can improve this model. I think that I shoul
 
 Link to 'fretboard_key_of_c.png' screenshot source: https://upload.wikimedia.org/wikipedia/commons/1/1b/C_Major_Scale_on_fretboard.svg
 Link to 'guitar_tab_example.png' screenshot source: https://s3.amazonaws.com/halleonard-pagepreviews/HL_DDS_0000000000093646.png
+
 I took inspiration from the following papers:
 - Dosovitski et al. An Image is Worth 16x16 Words: Transformers Image Recognition at Scale. (2021).
 - Liu et al. Swin Transformer: Hierarchical Vision Transformer using Shifted Windows. (2021).
